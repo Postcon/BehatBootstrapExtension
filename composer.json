@@ -1,0 +1,35 @@
+{
+    "name": "postcon/bootstrap-extension",
+    "type": "behat-extension",
+    "description": "A Behat Extension that allows custom bootstrapping",
+    "keywords": [
+        "behat",
+        "bdd",
+        "bootstrap"
+    ],
+    "homepage": "https://github.com/Postcon/BehatBootstrapExtension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Team DevStreet",
+            "email": "team-devstreet@postcon.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "behat/behat": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Behat\\BootstrapExtension": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+}
