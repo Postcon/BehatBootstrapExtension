@@ -27,6 +27,11 @@
             "Behat\\BootstrapExtension": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "PostCon\\Tests\\Behat\\BoostrapExtension\\": "tests/"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"

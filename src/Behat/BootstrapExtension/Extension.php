@@ -27,6 +27,7 @@ class Extension implements ExtensionInterface
     public function process(ContainerBuilder $container)
     {
         $bootstrapPath = $container->getParameter('bootstrap_extension.bootstrap_file');
+        $bootstrapPath = $container->getParameterBag()->resolveValue($bootstrapPath);
         if ($bootstrapPath) {
             require_once($bootstrapPath);
         }

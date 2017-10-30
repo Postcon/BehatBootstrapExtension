@@ -1,0 +1,3 @@
+<?php
+
+define('POSTCON_BEHAT_BOOSTRAP_EXTENSION_NO_PARAM', 1);
