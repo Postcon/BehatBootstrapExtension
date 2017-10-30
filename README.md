@@ -1,6 +1,10 @@
 # BehatBootstrapExtension
 A Behat Extension that allows custom bootstrapping.
 
+## Requirements
+
+  - behat/behat ~3.0
+
 ## Installation
 
 ```
